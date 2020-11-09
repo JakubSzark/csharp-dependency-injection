@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jakub\\source\\repos\\DependencyInjection\\DependencyInjection.csproj": {}
+    "C:\\Dev\\Projects\\CSharp\\csharp-dependency-injection\\DependencyInjection.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jakub\\source\\repos\\DependencyInjection\\DependencyInjection.csproj": {
+    "C:\\Dev\\Projects\\CSharp\\csharp-dependency-injection\\DependencyInjection.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jakub\\source\\repos\\DependencyInjection\\DependencyInjection.csproj",
+        "projectUniqueName": "C:\\Dev\\Projects\\CSharp\\csharp-dependency-injection\\DependencyInjection.csproj",
         "projectName": "DependencyInjection",
-        "projectPath": "C:\\Users\\Jakub\\source\\repos\\DependencyInjection\\DependencyInjection.csproj",
+        "projectPath": "C:\\Dev\\Projects\\CSharp\\csharp-dependency-injection\\DependencyInjection.csproj",
         "packagesPath": "C:\\Users\\Jakub\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jakub\\source\\repos\\DependencyInjection\\obj\\",
+        "outputPath": "C:\\Dev\\Projects\\CSharp\\csharp-dependency-injection\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jakub\\AppData\\Roaming\\NuGet\\NuGet.Config",

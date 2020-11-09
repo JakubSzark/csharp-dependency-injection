@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DependencyInjection
+namespace Szark.DI
 {
     [AttributeUsage(AttributeTargets.Class)]
     public class ServiceAttribute : Attribute

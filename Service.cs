@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Diagnostics.CodeAnalysis;
 
-namespace DependencyInjection
+namespace Szark.DI
 {
     public enum ServiceType
     {

@@ -1,4 +1,4 @@
-﻿namespace DependencyInjection
+﻿namespace Szark.DI
 {
     public interface IBuildRunner
     {

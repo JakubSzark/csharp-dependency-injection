@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System;
 
-namespace DependencyInjection
+namespace Szark.DI
 {
     internal class ServiceProvider : IServiceProvider
     {

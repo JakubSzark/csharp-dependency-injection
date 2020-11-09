@@ -1,4 +1,4 @@
-﻿namespace DependencyInjection
+﻿namespace Szark.DI
 {
     [Service(typeof(IArgs), ServiceType.Singleton)]
     public class Args : IArgs {

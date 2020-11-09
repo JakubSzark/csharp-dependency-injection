@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Reflection;
 
-namespace DependencyInjection
+namespace Szark.DI
 {
-    public class Registry
+    public class ServiceRegistry
     {
         private readonly List<Service> _services;
         private readonly string[]? _args;
 
-        public Registry(string[]? args = null)
+        public ServiceRegistry(string[]? args = null)
         {
             _args = args;
             _services = new List<Service>() {
@@ -20,7 +20,7 @@ namespace DependencyInjection
         /// <summary>
         /// Builds a registery of all services in the provided assembly.
         /// </summary>
-        public Registry RegisterAssembly(Assembly assembly)
+        public ServiceRegistry RegisterAssembly(Assembly assembly)
         {
             foreach (var concrete in assembly.GetTypes())
             {
@@ -47,7 +47,7 @@ namespace DependencyInjection
         /// </summary>
         /// <typeparam name="T">The concrete type</typeparam>
         /// <typeparam name="K">The interface</typeparam>
-        public Registry Register<T, K>(ServiceType type = ServiceType.Temporary)
+        public ServiceRegistry Register<T, K>(ServiceType type = ServiceType.Temporary)
         {
             var service = new Service(typeof(T), typeof(K), type);
             if (!_services.Contains(service)) _services.Add(service);
@@ -57,7 +57,7 @@ namespace DependencyInjection
         /// <summary>
         /// Runs the IBuildRunner
         /// </summary>
-        public Registry Run<T>() where T: class, IBuildRunner
+        public ServiceRegistry Run<T>() where T: class, IBuildRunner
         {
             var provider = new ServiceProvider(_services);
 
