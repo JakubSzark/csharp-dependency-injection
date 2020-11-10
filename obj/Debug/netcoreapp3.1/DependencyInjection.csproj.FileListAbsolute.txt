@@ -10,7 +10,6 @@ C:\Users\Jakub\source\repos\DependencyInjection\obj\Debug\netcoreapp3.1\Dependen
 C:\Dev\Projects\CSharp\csharp-dependency-injection\bin\Debug\netcoreapp3.1\DependencyInjection.deps.json
 C:\Dev\Projects\CSharp\csharp-dependency-injection\bin\Debug\netcoreapp3.1\DependencyInjection.dll
 C:\Dev\Projects\CSharp\csharp-dependency-injection\bin\Debug\netcoreapp3.1\DependencyInjection.pdb
-C:\Dev\Projects\CSharp\csharp-dependency-injection\obj\Debug\netcoreapp3.1\DependencyInjection.csprojAssemblyReference.cache
 C:\Dev\Projects\CSharp\csharp-dependency-injection\obj\Debug\netcoreapp3.1\DependencyInjection.AssemblyInfoInputs.cache
 C:\Dev\Projects\CSharp\csharp-dependency-injection\obj\Debug\netcoreapp3.1\DependencyInjection.AssemblyInfo.cs
 C:\Dev\Projects\CSharp\csharp-dependency-injection\obj\Debug\netcoreapp3.1\DependencyInjection.csproj.CoreCompileInputs.cache

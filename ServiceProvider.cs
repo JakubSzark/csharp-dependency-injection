@@ -1,5 +1,5 @@
-﻿using System.Collections.Generic;
-using System;
+﻿using System;
+using System.Collections.Generic;
 
 namespace Szark.DI
 {
@@ -48,7 +48,7 @@ namespace Szark.DI
                         var propVal = _singletons.Find(o => o.GetType() == service.ConcreteType);
                         if (propVal != null) property.SetValue(serviceObj, propVal);
                         else property.SetValue(serviceObj, Get(service.ConcreteType));
-                        
+
                         break;
                     }
                 }
@@ -85,6 +85,6 @@ namespace Szark.DI
         /// If the service is a singleton then that is returned.
         /// Otherwise a new instance is created.
         /// </summary>
-        public T Get<T>() where T: class => (T)Get(typeof(T));
+        public T Get<T>() where T : class => (T)Get(typeof(T));
     }
 }

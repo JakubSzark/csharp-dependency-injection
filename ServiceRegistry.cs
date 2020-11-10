@@ -34,7 +34,7 @@ namespace Szark.DI
                             "cannot contain parameters in constructor!");
                     }
 
-                    _services.Add(new Service(concrete, 
+                    _services.Add(new Service(concrete,
                         attr.Interface, attr.ServiceType));
                 }
             }
@@ -57,7 +57,7 @@ namespace Szark.DI
         /// <summary>
         /// Runs the IBuildRunner
         /// </summary>
-        public ServiceRegistry Run<T>() where T: class, IBuildRunner
+        public ServiceRegistry Run<T>() where T : class, IServiceRunner
         {
             var provider = new ServiceProvider(_services);
 

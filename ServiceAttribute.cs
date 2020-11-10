@@ -8,7 +8,7 @@ namespace Szark.DI
         public readonly Type Interface;
         public readonly ServiceType ServiceType;
 
-        public ServiceAttribute(Type serviceInterface, 
+        public ServiceAttribute(Type serviceInterface,
             ServiceType type = ServiceType.Temporary)
         {
             Interface = serviceInterface;

@@ -1,6 +1,6 @@
 ﻿namespace Szark.DI
 {
-    public interface IBuildRunner
+    public interface IServiceRunner
     {
         void Run(IServiceProvider services);
     }
